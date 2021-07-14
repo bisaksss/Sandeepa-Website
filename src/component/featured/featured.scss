@@ -1,6 +1,26 @@
 .featured{
     height: 90vh;
     position: relative;
+
+    .catogory{
+        position: absolute;
+        top: 90px;
+        left: 70px;
+        font-size: 30px;
+        font-weight: 500;
+        color: white;
+        display: flex;
+        align-items: center;
+
+        select{
+            cursor: pointer;
+            background-color: black;
+            border: 1px solid white;
+            color: white;
+            margin-left: 20px;
+            padding: 5px;
+        }
+    }
     img{
         width: 100%;
        
