@@ -10,6 +10,11 @@ export default function Home() {
         <NavBar/>
         <Featured typez="cinemantic"/>
         <List/>
+        <List/>
+        <List/>
+        <List/>
+        <List/>
+        <List/>
       
         </div>
     )

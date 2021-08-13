@@ -7,12 +7,23 @@ export default function List() {
         <div className="list">
            <span className="listTitle">Continue to watch</span>
            <div className="wrapper">
-               <ArrowBackIos/>
+               <ArrowBackIos className="slideArrow left"/>
                <div className="container">
 
                    <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
+                   <ListItem/>
                </div>
-               <ArrowForwardIos/>
+               <ArrowForwardIos className="slideArrow right"/>
            </div>
         </div>
     )
