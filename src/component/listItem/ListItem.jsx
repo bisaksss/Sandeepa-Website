@@ -4,6 +4,8 @@ import "./listItem.scss";
 
 export default function ListItem({indexList}) {
 
+    const trailer="assets/videotest.mp4";
+
     const [isHovered,setIsHoverd]=useState(false);
 
 
@@ -16,6 +18,14 @@ export default function ListItem({indexList}) {
          
          >
            <img src="assets/listImg.jpg" alt="" />
+        {isHovered && (
+
+            <>
+       
+
+           <video  autoPlay loop muted>
+          <source src={trailer} type="video/mp4"></source>
+            </video>
 
         <div className="iteamInfo">
 
@@ -43,7 +53,8 @@ export default function ListItem({indexList}) {
             </div>
             <div className="genre">Action</div>
         </div>
-
+        </>
+         )}
         </div>
     )
 }

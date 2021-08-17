@@ -13,6 +13,14 @@
         height: 100%;
         object-fit: cover;
     }
+    video{
+        width: 100%;
+        height: 190px;
+        object-fit: cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
 
     &:hover{
         width: 325px;
@@ -21,10 +29,10 @@
         top: -150px;
         -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 2px 1px 15px 11px rgba(255,255,255,0.16); 
         box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 2px 1px 15px 11px rgba(255,255,255,0.16);
-        
+        border-radius: 10px;
         
         img{
-            height: 140px;
+            height: 190px;
         }
     }
 }
