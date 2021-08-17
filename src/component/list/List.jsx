@@ -1,6 +1,7 @@
 import { ArrowBackIos, ArrowForwardIos } from "@material-ui/icons";
 import { useState } from "react";
 import { useRef } from "react";
+import { Link } from "react-router-dom";
 import ListItem from "../listItem/ListItem";
 import "./list.scss";
 
@@ -39,7 +40,7 @@ export default function List() {
                <ArrowBackIos className="slideArrow left" onClick={()=>handleClick("left")} style={{display:!isMoved && "none"}}/>
                <div className="container" ref={listRef} >
 
-                   <ListItem indexList={0}/>
+                    <Link to="/watch">  <ListItem indexList={0}/></Link>
                    <ListItem indexList={1}/>
                    <ListItem indexList={2}/>
                    <ListItem indexList={3}/>

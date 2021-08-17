@@ -11,6 +11,14 @@
         color: gray;
         cursor: pointer;
         z-index: 2;
+
+        .linkStyle{
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            color: gray;
+        }
+        
     }
     .video{
         width: 100%;
