@@ -31,13 +31,13 @@ export default function ListItem({indexList}) {
 
             <div className="icons">
 
-                <PlayArrow/>
+                <PlayArrow className="icon"/>
 
-                <Add/>
+                <Add className="icon"/>
 
-                <ThumbUpOutlined/>
+                <ThumbUpOutlined className="icon"/>
 
-                <ThumbDownOutlined/>
+                <ThumbDownOutlined className="icon"/>
 
             </div>
 
@@ -49,7 +49,7 @@ export default function ListItem({indexList}) {
 
             <div className="discription">
                 Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                 Accusamus aperiam doloremque dolor placeat 
+                
             </div>
             <div className="genre">Action</div>
         </div>
