@@ -21,7 +21,7 @@ export default function List() {
             listRef.current.style.transform = `translateX(${ distance + 230 }px)`;
         }
 
-        if (direction === "right" && slideNumber < 5)
+        if (direction === "right" && slideNumber <5)
         {
             setSlideNumber(slideNumber + 1);
             listRef.current.style.transform = `translateX(${ distance - 230 }px)`;
@@ -39,16 +39,16 @@ export default function List() {
                <ArrowBackIos className="slideArrow left" onClick={()=>handleClick("left")} style={{display:!isMoved && "none"}}/>
                <div className="container" ref={listRef} >
 
-                   <ListItem/>
-                   <ListItem/>
-                   <ListItem/>
-                   <ListItem/>
-                   <ListItem/>
-                   <ListItem/>
-                   <ListItem/>
-                   <ListItem/>
-                   <ListItem/>
-                   <ListItem/>
+                   <ListItem indexList={0}/>
+                   <ListItem indexList={1}/>
+                   <ListItem indexList={2}/>
+                   <ListItem indexList={3}/>
+                   <ListItem indexList={4}/>
+                   <ListItem indexList={5}/>
+                   <ListItem indexList={6}/>
+                   <ListItem indexList={7}/>
+                   <ListItem indexList={8}/>
+                   <ListItem indexList={9}/>
                    
                </div>
                <ArrowForwardIos className="slideArrow right" onClick={()=>handleClick("right")}/>
