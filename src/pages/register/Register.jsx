@@ -13,8 +13,12 @@ export default function Register() {
 
             <div className="container">
                 <h1>Lorem ipsum dolor sit amet consectetur, 
-                    adipisicing elit. Error nemo recusandae fugit itaqu
+                    
                 </h1>
+
+                <h3>adipisicing elit. Error nemo recusandae fugit itaqu</h3>
+
+                <p>Bisak sampath</p>
 
                 <div className="input">
                     <input type="email" placeholder="Email Address" />
