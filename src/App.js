@@ -3,6 +3,7 @@ import "./app.scss";
 import Home from "./pages/home/Home";
 import Watch from "./pages/watch/Watch";
 import Register from "./pages/register/Register";
+import Login from "./pages/login/Login";
 function App() {
   return (
 
@@ -20,6 +21,9 @@ function App() {
 
 
         <Route  path = "/register" component = {Register} />
+
+        
+        <Route  path = "/login" component = {Login} />
 
 
 
