@@ -1,0 +1,27 @@
+.register{
+    width: 100vw;
+    height: 100vh;
+    background: url("regiback.jpg");
+    background-size: cover;
+
+
+    .top{
+       .wrapper{
+           padding: 20px 50px;
+           display: flex;
+           align-items: center;
+           justify-content: space-between;
+           .logo{
+            font-size: 50px;
+            font-weight: 500;
+            text-decoration: none;
+            color: crimson;
+            margin-right: 40px;
+           }
+           .loginButton{
+               
+           }
+       }
+        
+    }
+}

@@ -2,6 +2,7 @@ import { BrowserRouter as Router,Route, Switch } from "react-router-dom";
 import "./app.scss";
 import Home from "./pages/home/Home";
 import Watch from "./pages/watch/Watch";
+import Register from "./pages/register/Register";
 function App() {
   return (
 
@@ -16,6 +17,9 @@ function App() {
      
 
         <Route  path = "/watch" component = {Watch} />
+
+
+        <Route  path = "/register" component = {Register} />
 
 
 
